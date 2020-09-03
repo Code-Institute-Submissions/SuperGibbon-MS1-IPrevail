@@ -1,7 +1,7 @@
 
 Youtbue video wrapping https://css-tricks.com/fluid-width-video/
 
-
+band images https://livemetalblog.wordpress.com/2018/05/30/rock-on-the-range-photos-i-prevail-05-20-18/
 
 
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
