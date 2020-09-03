@@ -93,3 +93,19 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/* Band Wiki */
+
+.band-wiki {
+    text-align: center;
+    background-color: purple;
+}
+
+.bandinfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bandinfo-title {
+    margin-bottom: 20px;
+}
