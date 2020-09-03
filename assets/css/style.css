@@ -46,4 +46,10 @@ body {
     display: flex;
 
     position: relative;
+
+    background: url(..assets/images/iprevailband.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
