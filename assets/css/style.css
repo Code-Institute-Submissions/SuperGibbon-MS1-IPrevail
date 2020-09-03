@@ -1,0 +1,16 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*nav alert*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.navalert-container .col-12 {
+    padding: 0
+}
