@@ -59,4 +59,22 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    border: solid 1px;
+}
+
+/* latest music */
+
+.latest-music  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.latest-music h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
