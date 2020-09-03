@@ -14,3 +14,24 @@ body {
 .navalert-container .col-12 {
     padding: 0
 }
+
+/* nav bar */
+
+.navbar {
+    margin: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 120%;
+}
