@@ -5,8 +5,9 @@ body {
 /*nav alert*/
 
 .tour-alert {
-    padding: 0;
+    padding: 10px, 10px;
     margin: 0;
+
 }
 
 .navalert-container {
