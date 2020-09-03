@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: darkslategray;
+    background-color: black;
     color: white;
 }
 
@@ -28,7 +28,7 @@ body {
 .navbar {
     margin: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: purple;
 }
 
 .navbar ul {
