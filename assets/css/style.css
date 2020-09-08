@@ -21,9 +21,9 @@ body {
     background-color: black;
 }
 
-/* callout - need to work on background image*/
+/* full band image - need to work on background image*/
 
-.callout-container {
+.full-band-image {
     height: 80vh;
     
     align-items: center;
