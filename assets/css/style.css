@@ -111,6 +111,10 @@ body {
 
 /* Band Wiki */
 
+.band-wiki-section {
+    background-color: purple;
+}
+
 .band-wiki {
     text-align: center;
     background-color: purple;
