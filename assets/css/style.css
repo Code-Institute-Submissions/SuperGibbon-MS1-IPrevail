@@ -9,6 +9,8 @@ body {
 .block-divider{
     width: 300px;
     height: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .block-divider-color1 {
@@ -87,6 +89,7 @@ body {
     justify-content: center;
     display: flex;
     margin-bottom: 40px;
+    margin-top: 0;
 }
 
 .latest-music h1 {
