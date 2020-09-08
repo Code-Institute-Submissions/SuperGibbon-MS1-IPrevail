@@ -117,7 +117,6 @@ body {
 
 .band-wiki {
     text-align: center;
-    background-color: purple;
 }
 
 .bandinfo {
@@ -156,4 +155,9 @@ footer {
     padding-top: 10px;
     font-size: 20px;
     border-radius: 30%;
+}
+
+.download-title p {
+    padding-bottom: 0;
+    padding-top: 10px;
 }
