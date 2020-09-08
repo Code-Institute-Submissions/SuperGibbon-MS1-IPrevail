@@ -4,6 +4,26 @@ body {
     color: white;
 }
 
+/* callout - need to work on background image*/
+
+.callout-container {
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    position: relative;
+
+    background: url(..assets/images/iprevail.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    border: solid 1px;
+}
+
 /*nav alert*/
 
 .tour-alert {
@@ -42,26 +62,6 @@ body {
     display: inline-block;
     margin: 5px;
     font-size: 120%;
-}
-
-/* callout */
-
-.callout-container {
-    height: 100vh;
-    
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-    position: relative;
-
-    background: url(..assets/images/iprevailband.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    border: solid 1px;
 }
 
 /* latest music */
