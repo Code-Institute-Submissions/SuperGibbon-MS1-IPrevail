@@ -5,6 +5,8 @@ band images https://livemetalblog.wordpress.com/2018/05/30/rock-on-the-range-pho
 
 hero image https://www.billboard.com/articles/columns/rock/8504650/i-prevail-trauma-paranoid
 
+help with textarea and textarea rows https://stackoverflow.com/questions/48557955/how-to-increase-height-of-textarea-using-bootstrap-rows-and-columns
+
 
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 

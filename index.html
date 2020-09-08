@@ -146,7 +146,7 @@
             </div>
             <div class="col-4">
                 <div class="footer-title">
-                    <p>Book us for a show</p>
+                    <button class="btn btn-signup-og btn-lg" data-toggle="modal" data-target="#bookusModal">Book Us!</button>
                 </div>
             </div>
             <div class="col-4">
@@ -179,6 +179,41 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal" tabindex="-1" role="dialog" id="bookusModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book us for a show!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEmail">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="Date">What date do you want us to play?</label>
+                            <input type="date" class="form-control" id="date" placeholder="Date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Where do you want us to play?</label>
+                            <input type="textarea" class="form-control" id="location" placeholder="Location" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="freeform">Info about the show</label>
+                            <textarea rows="4" type="textarea" class="form-control" id="textarea" placeholder="Please give us some info about the show"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
