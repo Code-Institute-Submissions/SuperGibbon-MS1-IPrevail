@@ -7,7 +7,7 @@ body {
 /* block dividers */
 
 .block-divider{
-    width: 150px;
+    width: 300px;
     height: 5px;
 }
 
@@ -130,4 +130,8 @@ body {
 footer {
     margin-top: 20px;
     color: purple;
+}
+
+.footer-title {
+    text-align: center;
 }
