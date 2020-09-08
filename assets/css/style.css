@@ -109,3 +109,10 @@ body {
 .bandinfo-title {
     margin-bottom: 20px;
 }
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    color: purple;
+}
