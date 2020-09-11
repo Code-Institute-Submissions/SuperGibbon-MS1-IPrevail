@@ -183,10 +183,15 @@ footer {
 /* Carousel */
 
 .bandcarousel {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 /* Gallery */
+
+.gallery-latest-show {
+    margin-top: 100px;
+    text-align: center;
+}
 
 .gallery-container {
     align-content: center;
