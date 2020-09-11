@@ -179,3 +179,9 @@ footer {
 .form-group label {
     color: black;
 }
+
+/* Carousel */
+
+.bandcarousel {
+    margin-top: 100px;
+}
