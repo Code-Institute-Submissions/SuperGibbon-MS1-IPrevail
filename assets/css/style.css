@@ -191,3 +191,9 @@ footer {
 .gallery-container {
     align-content: center;
 }
+
+.imglist a {
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-bottom: 30px;
+}
