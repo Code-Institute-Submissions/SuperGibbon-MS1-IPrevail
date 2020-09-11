@@ -185,3 +185,9 @@ footer {
 .bandcarousel {
     margin-top: 100px;
 }
+
+/* Gallery */
+
+.gallery-container {
+    align-content: center;
+}
