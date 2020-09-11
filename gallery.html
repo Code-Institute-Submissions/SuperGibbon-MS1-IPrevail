@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Prevail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+<body>
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <a href="#" class="navbar-brand d-none d-sm-block">I Prevail</a>
+                <ul class="navbar-nav nav list-inline">
+                    <li class="nav-item list-inline-item"><a class="active nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="#">Merch Store</a></li>
+                </ul>
+            </div>
+        </nav>        
+    </div>  
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="footer-title download-title">
+                    <p>Download our free poster
+                        <a href="assets/poster/poster.jpg" target="_blank" class="poster-jpg">
+                            <i class="fas fa-portrait"></i>
+                            <span class="sr-only">Download Link</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer-title">
+                    <button class="btn btn-signup-og btn-lg" data-toggle="modal" data-target="#bookusModal">Book Us!</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <ul class="list-inline social-links footer-title">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/IPrevailBand/">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/IPrevailBand">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/iprevailband/?hl=en">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCgN1463ngpGdCpAbCBGFteg">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" tabindex="-1" role="dialog" id="bookusModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book us for a show!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEmail">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="Date">What date do you want us to play?</label>
+                            <input type="date" class="form-control" id="date" placeholder="Date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Where do you want us to play?</label>
+                            <input type="textarea" class="form-control" id="location" placeholder="Location" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="freeform">Info about the show</label>
+                            <textarea rows="4" type="textarea" class="form-control" id="textarea" placeholder="Please give us some info about the show"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
