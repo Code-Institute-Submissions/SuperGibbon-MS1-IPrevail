@@ -7,6 +7,8 @@ hero image https://www.billboard.com/articles/columns/rock/8504650/i-prevail-tra
 
 help with textarea and textarea rows https://stackoverflow.com/questions/48557955/how-to-increase-height-of-textarea-using-bootstrap-rows-and-columns
 
+merch images https://store.fearlessrecords.com/pages/i-prevail
+
 [master 947cf73] - image 90vh to give better idea of info under image
 
 [master 86a21b3] - redesign after user input (my wife) to move about us to own page
