@@ -29,11 +29,7 @@ body {
 /* full band image */
 
 .full-band-image {
-    height: 80vh;
-    
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    margin: auto;
 }
 
 /*nav alert*/
