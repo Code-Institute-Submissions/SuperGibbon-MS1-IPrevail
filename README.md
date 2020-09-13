@@ -13,6 +13,8 @@ merch images https://store.fearlessrecords.com/pages/i-prevail
 
 [master 86a21b3] - redesign after user input (my wife) to move about us to own page
 
+[master f0e6ce9] - reword of para to encourage users to go to full store
+
 
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
