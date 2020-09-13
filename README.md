@@ -17,6 +17,11 @@ merch images https://store.fearlessrecords.com/pages/i-prevail
 
 [master 67eb2f1] - navbar book us added after user testing
 
+mentor discussion   - footer socials when on mobile alignment
+                    - full band image, responsive design not work on md and lg screens
+                    - gallery, centering images on smaller screens and mobiles
+                    - merch, 1 item on sm and xs doesnt center
+
 
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
