@@ -52,14 +52,6 @@ body {
     color: purple;
 }
 
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
-    z-index: 1;
-    }
-
 .navalert-container .col-12 {
     padding: 0
 }
