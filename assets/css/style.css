@@ -163,6 +163,7 @@ footer {
 
 .footer-title {
     text-align: center;
+    margin-top: 10px;
 }
 
 .poster-jpg i {
@@ -190,6 +191,12 @@ footer {
 .download-title p {
     padding-bottom: 0;
     padding-top: 10px;
+}
+
+.btn-signup-og {
+    color: white;
+    background-color: black;
+    border: solid 1px white;
 }
 
 /* Modal */
