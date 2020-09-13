@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+.ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
 /* block dividers */
 
 .block-divider{
