@@ -15,6 +15,8 @@ merch images https://store.fearlessrecords.com/pages/i-prevail
 
 [master f0e6ce9] - reword of para to encourage users to go to full store
 
+[master 67eb2f1] - navbar book us added after user testing
+
 
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
