@@ -266,3 +266,7 @@ footer {
 .gallery-title {
     text-align: center;
 }
+
+.gallery-title h3 {
+    margin-bottom: 0;
+}
