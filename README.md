@@ -9,6 +9,8 @@ help with textarea and textarea rows https://stackoverflow.com/questions/4855795
 
 [master 947cf73] - image 90vh to give better idea of info under image
 
+[master 86a21b3] - redesign after user input (my wife) to move about us to own page
+
 
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
