@@ -52,6 +52,11 @@ body {
     color: purple;
 }
 
+.navalert-container {
+    padding: 0;
+    margin: 0;
+}
+
 .navalert-container .col-12 {
     padding: 0
 }
