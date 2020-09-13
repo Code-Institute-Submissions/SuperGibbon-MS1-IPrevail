@@ -93,6 +93,10 @@ body {
     padding-right: 10px;
 }
 
+.navbarbutton {
+    float: right;
+}
+
 /* latest music */
 
 .latest-music  {
