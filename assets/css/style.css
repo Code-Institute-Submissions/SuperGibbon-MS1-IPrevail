@@ -105,11 +105,11 @@ body {
 /* Merch */
 
 .merch {
-    margin: auto;
-
     align-items: center;
     justify-content: center;
     display: flex;
+
+    margin-bottom: 50px;
 }
 
 .merch h2 {
