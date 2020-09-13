@@ -161,9 +161,17 @@ body {
     margin-bottom: 30px;
 }
 
+.member-body h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
 .member-bio {
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
+
 }
 
 /* Footer */
