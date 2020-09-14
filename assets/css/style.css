@@ -38,6 +38,11 @@ body {
     padding: 0;
 }
 
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
 /*nav alert*/
 
 .tour-alert {
@@ -250,6 +255,8 @@ footer {
 
 .bandcarousel {
     margin-top: 30px;
+    max-height: 592px;
+    max-width: 888px;
 }
 
 /* Gallery */
