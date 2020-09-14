@@ -159,6 +159,10 @@ body {
     border: solid 2px white;
 }
 
+.merch-row {
+    text-align: center;
+}
+
 /* Band Wiki */
 
 .band-wiki-section {
@@ -287,4 +291,8 @@ footer {
 .gallery-image {
     width: 100%;
     height: auto;  
+}
+
+.gallery-row {
+    text-align: center;
 }

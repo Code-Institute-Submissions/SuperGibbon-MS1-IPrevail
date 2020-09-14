@@ -9,6 +9,8 @@ help with textarea and textarea rows https://stackoverflow.com/questions/4855795
 
 merch images https://store.fearlessrecords.com/pages/i-prevail
 
+center align fancybox - https://stackoverflow.com/questions/21199737/jquery-fancybox-content-not-centering-in-chrome/54231869 
+
 [master 947cf73] - image 90vh to give better idea of info under image
 
 [master 86a21b3] - redesign after user input (my wife) to move about us to own page
