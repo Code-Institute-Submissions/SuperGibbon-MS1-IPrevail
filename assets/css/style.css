@@ -28,8 +28,14 @@ body {
 
 /* full band image */
 
+.full-image-row {
+    padding: 0;
+    margin: 0;
+}
+
 .full-band-image {
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*nav alert*/
