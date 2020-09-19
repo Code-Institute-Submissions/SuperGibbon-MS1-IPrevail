@@ -1,66 +1,128 @@
+# I Prevail - website for fans of the band
 
-Youtbue video wrapping https://css-tricks.com/fluid-width-video/
+This project was designed to give new or current fans access to information about the band I Prevail, including a video of their music, links to tour dates and merchandise and a short bio about the band and the members plus the ability to contact the band to enquire about booking them for an event.
+ 
+## UX
 
-band images https://livemetalblog.wordpress.com/2018/05/30/rock-on-the-range-photos-i-prevail-05-20-18/
+The site is designed for users to learn more about the band, keep up to dates on show images, music, merchandise and tour dates, with that in mind the site is set into 3 separate pages, the homepage being where the all users will land gives information or shares media for anyone who is interested in I previal. The gallery page for those looking to keep up on the bands shows and the about us page where new or returning fans can learn more their favourite band members.
+ 
+### First time users
+- As a first time user, I want to hear the latest music so I can learn more about the bands music
+- As a first time user, I want to read about the band and members so I can learn more about them
+- As a first time user, I want to see pictures of the band so I can see what shows are like
 
-hero image https://www.billboard.com/articles/columns/rock/8504650/i-prevail-trauma-paranoid
+### Returning users
+- As a returning user, I want to see tours information for the band so I can look to attend a show
+- As a returning user, I want to see any new merchandise that is available to buy as a fan
+- As a returning user, I want to enquire about booking the band to play at a show 
 
-help with textarea and textarea rows https://stackoverflow.com/questions/48557955/how-to-increase-height-of-textarea-using-bootstrap-rows-and-columns
+### Frequent visitor
+- As a frequent visitor, I want to check out any new images from the latest show to keep up to date on the band
 
-merch images https://store.fearlessrecords.com/pages/i-prevail
+## Features
 
-center align fancybox - https://stackoverflow.com/questions/21199737/jquery-fancybox-content-not-centering-in-chrome/54231869 
+### Existing features
 
-[master 947cf73] - image 90vh to give better idea of info under image
+- Tour alert - allows users visiting to see band are on tour and click link to go to official tour page to look for shows and tickets
+- Navbar - allows all users to navigate to all pages of wesite by clicking page required, also has button to open form to book band
+- Music video embedded - allows all users to view the bands latest music video to either keep up to date or learn about their music
+- Merchandise images - allows users to see the latests items for sale in the shop, clicking on the image will take them to shop to purchase items
+- Gallery image carousel - gives all users the ability to see the latest pictures from the bands shows by scrolling through carousel using built in arrows
+- Gallery - allows users to see some of the best images from previous shows, clicking on images brings them to center of page and enables a simple gallery scroll for easier viewing with caption information.
+- About us - gives users the ability to learn more about the band by reading information provided on page
+- Download poster - gives all user access to a free poster to downlaod by clicking on the icon in the footer
+- Book us button - allows user to enquire about booking the band, in navbar and footer, by clicking button form opens to provide inforation about booking band and submitting information to enquire about them performing at a show
+- Social links - allows user to view other social media platforms for the band by clicking icons in the footer
 
-[master 86a21b3] - redesign after user input (my wife) to move about us to own page
+## Technologies Used
 
-[master f0e6ce9] - reword of para to encourage users to go to full store
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to provide the layout of the pages. Components are also used to create the carousel within the gallery, the modal for booking the band and media object used to display the band info on the about us page
 
-[master 67eb2f1] - navbar book us added after user testing
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** as part of bootstrap components
 
-mentor discussion   - footer socials when on mobile alignment
-                    - full band image, random padding/margin aboe? and responsive design not work on md and lg screens
-                    - gallery, centering images on smaller screens and mobiles
-                    - merch, 1 item on sm and xs doesnt center
+- [FancyBox](https://fancyapps.com/fancybox/3/) 
+    - The project uses **FancyBox** to create the responsive gallery
 
+- [Popper](https://popper.js.org/)
+    - The project uses **Popper** as part of the fancybox gallery
 
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+- [FontAwesome](https://fontawesome.com/)
+    - The project uses **FontAwesome** to provide the icons used in social links and the download poster icon
 
-Welcome SuperGibbon,
+- [GoogleFonts](https://fonts.google.com/)
+    - The project uses **GoogleFonts** to provide the fonts used on the pages
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Testing
 
-## Gitpod Reminders
+1. Tour alert
+    1. Click link to confirm that tour information page is loaded in separate tab
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+2. Navbar
+    1. Click Home link and confirmed index.html was loaded
+    2. Click Gallery link and confirmed gallery.html was loaded
+    3. Click About Us link and confirmed about.html was loaded
+    4. Clicked Book Us button and verified that modal opened (modal testing is below)
 
-`python3 -m http.server`
+3. Music Video
+    1. Clicked video and verified that it plays within web page
+    2. Clicked YouTube link in video and verified that if clicked youtube page would open in new tab
+    3. Clicked full screen button and verified that video would play full screen
+    4. When playing full screen clicked exit full screen button and verified page would return to previous started
 
-A blue button should appear to click: *Make Public*,
+4. Merchandise 
+    1. Clicked image 1 (cd) and verified link to merch store opened
+    2. Clicked image 2 (lp) and verified link to merch store opened
+    3. Clicked image 1 (hat) and verified link to merch store opened
 
-Another blue button should appear to click: *Open Browser*.
+5. Gallery carousel
+    1. Clicked arrows left and right and verified images scroll
+    2. Viewed carousel and waited to verified that images auto scroll
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+6. Gallery
+    1. Clicked image 1 and verified that image became centered and caption was visiable
+    2. Clicked image 2 and verified that image became centered and caption was visiable
+    3. Clicked image 3 and verified that image became centered and caption was visiable
+    4. Clicked image 4 and verified that image became centered and caption was visiable
+    5. Clicked image 5 and verified that image became centered and caption was visiable
+    6. Clicked image 6 and verified that image became centered and caption was visiable
+    7. Clicked image 7 and verified that image became centered and caption was visiable
+    8. Clicked image 8 and verified that image became centered and caption was visiable
+    9. When image was centered used arrow buttons and verified that highlighted image would scroll to next or previous image
 
-A blue button should appear to click: *Make Public*,
+7. Modal
+    1. Completed form using valid data and submitted and verified that no errors happened
+    2. Tried to submit empty form and verified required fields highlighted to user
+    3. Input invalid email and verified that error message was presented
+    4. Clicked close button and verified that user able to close modal if no longer needed
 
-Another blue button should appear to click: *Open Browser*.
+8. Footer
+    1. Clicked icon for free poster and verified poster opened in new tab
+    2. Clicked Book Us button and verified form opened 
+    3. Clicked social links and confirmed all social media platforms opened to correct places and in new tabs
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+I had family and friends review and use the website using a variety of computers and devices to make sure that the website functioned properly and that the UX worked as intended with positive results.
 
-## Updates Since The Instructional Video
+## Deployment
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Deployment was done using git pages. By going into setting and options, scrolling down to github pages and choosing the master branch of my repository
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Credits
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Content
+- Band wiki section text was copied from [Wikipedia article I Prevail](https://en.wikipedia.org/wiki/I_Prevail)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Media
+- Gallery and carousel images were sourced from [LiveMetalBlog](https://livemetalblog.wordpress.com/2018/05/30/rock-on-the-range-photos-i-prevail-05-20-18/)
+- Full band image was sourced from [Billboard](https://www.billboard.com/articles/columns/rock/8504650/i-prevail-trauma-paranoid)
+- Merch images were sourced from [FearlessRecords](https://store.fearlessrecords.com/pages/i-prevail)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Acknowledgements
 
---------
+- A few acknowledgements here that I would have been stuck without;
 
-Happy coding!
+- Help with the youtube video wrapper and making it responsive came from [CSStricks](https://css-tricks.com/fluid-width-video/)
+- Help with text area and rows used in the modal came from [Stackoverflow](https://stackoverflow.com/questions/48557955/how-to-increase-height-of-textarea-using-bootstrap-rows-and-columns)
+- Help with centering fancybox gallery images when screen sizes varied came from [Stackoverflow](https://stackoverflow.com/questions/21199737/jquery-fancybox-content-not-centering-in-chrome/54231869 )
+- The knowledge to create this was learned from my course with the code institute and also the 2 mentors I had to help with this, Guido Cecilio for helping with the planning and Spenser Barriball for mid project and end project help and reviews
