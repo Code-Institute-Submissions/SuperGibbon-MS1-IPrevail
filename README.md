@@ -1,4 +1,4 @@
-![Responsive Image](https://imgur.com/a/wdZR7Un)
+[Responsive Image](https://imgur.com/AnhXoen)
 
 # I Prevail - website for fans of the band
 
