@@ -1,3 +1,5 @@
+![Responsive Image](https://imgur.com/a/wdZR7Un)
+
 # I Prevail - website for fans of the band
 
 This project was designed to give new or current fans access to information about the band I Prevail, including a video of their music, links to tour dates and merchandise and a short bio about the band and the members plus the ability to contact the band to enquire about booking them for an event.
@@ -124,5 +126,6 @@ Deployment was done using git pages. By going into setting and options, scrollin
 
 - Help with the youtube video wrapper and making it responsive came from [CSStricks](https://css-tricks.com/fluid-width-video/)
 - Help with text area and rows used in the modal came from [Stackoverflow](https://stackoverflow.com/questions/48557955/how-to-increase-height-of-textarea-using-bootstrap-rows-and-columns)
-- Help with centering fancybox gallery images when screen sizes varied came from [Stackoverflow](https://stackoverflow.com/questions/21199737/jquery-fancybox-content-not-centering-in-chrome/54231869 )
+- Help with centering fancybox gallery images when screen sizes varied came from [Stackoverflow](https://stackoverflow.com/questions/21199737/jquery-fancybox-content-not-centering-in-chrome/54231869)
+- Responsive image at the top of readme created using [Am I Responsive](http://ami.responsivedesign.is/)
 - The knowledge to create this was learned from my course with the code institute and also the 2 mentors I had to help with this, Guido Cecilio for helping with the planning and Spenser Barriball for mid project and end project help and reviews
