@@ -296,3 +296,11 @@ footer {
 .gallery-row {
     text-align: center;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    .modal {
+        width: 90%;
+    }
+}
