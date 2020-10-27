@@ -56,7 +56,91 @@ The site is designed for users to learn more about the band, keep up to dates on
 - [GoogleFonts](https://fonts.google.com/)
     - The project uses **GoogleFonts** to provide the fonts used on the pages
 
-## Testing
+## Testing - Old
+
+1. Tour alert
+    1. Click link to confirm that tour information page is loaded in separate tab
+
+2. Navbar
+    1. Click Home link and confirmed index.html was loaded
+    2. Click Gallery link and confirmed gallery.html was loaded
+    3. Click About Us link and confirmed about.html was loaded
+    4. Clicked Book Us button and verified that modal opened (modal testing is below)
+
+3. Music Video
+    1. Clicked video and verified that it plays within web page
+    2. Clicked YouTube link in video and verified that if clicked youtube page would open in new tab
+    3. Clicked full screen button and verified that video would play full screen
+    4. When playing full screen clicked exit full screen button and verified page would return to previous started
+
+4. Merchandise 
+    1. Clicked image 1 (cd) and verified link to merch store opened
+    2. Clicked image 2 (lp) and verified link to merch store opened
+    3. Clicked image 1 (hat) and verified link to merch store opened
+
+5. Gallery carousel
+    1. Clicked arrows left and right and verified images scroll
+    2. Viewed carousel and waited to verified that images auto scroll
+
+6. Gallery
+    1. Clicked image 1 and verified that image became centered and caption was visiable
+    2. Clicked image 2 and verified that image became centered and caption was visiable
+    3. Clicked image 3 and verified that image became centered and caption was visiable
+    4. Clicked image 4 and verified that image became centered and caption was visiable
+    5. Clicked image 5 and verified that image became centered and caption was visiable
+    6. Clicked image 6 and verified that image became centered and caption was visiable
+    7. Clicked image 7 and verified that image became centered and caption was visiable
+    8. Clicked image 8 and verified that image became centered and caption was visiable
+    9. When image was centered used arrow buttons and verified that highlighted image would scroll to next or previous image
+
+7. Modal
+    1. Completed form using valid data and submitted and verified that no errors happened
+    2. Tried to submit empty form and verified required fields highlighted to user
+    3. Input invalid email and verified that error message was presented
+    4. Clicked close button and verified that user able to close modal if no longer needed
+
+8. Footer
+    1. Clicked icon for free poster and verified poster opened in new tab
+    2. Clicked Book Us button and verified form opened 
+    3. Clicked social links and confirmed all social media platforms opened to correct places and in new tabs
+
+## Testing - New
+
+### First time users testing
+- As a first time user, I want to hear the latest music so I can learn more about the bands music
+    a. users arrive at the home page with the latest music available below the hero image.
+    b. users are able to play the embedded youtube video to hear the latest music immediately without navigation or leaving the page.
+
+- As a first time user, I want to read about the band and members so I can learn more about them
+    a. users can you easily see the option within the navigation bar named 'About Us' giving them a clear indication of where to find out more about the band.
+    b. when arriving on the 'About Us' page the information about the band is the first thing on the page, giving users a quick way to find out about the band.
+    c. by scrolling down on the page users can quickly navigate to the band members information to learn more about erach member, including a picture on screen sizes above or equal to 768px (width).
+
+- As a first time user, I want to see pictures of the band so I can see what shows are like
+    a. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
+    b. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
+    c. by scrolling down images of the band are avialble to view, each able to be clicked on to bring to forefront and making viewing the images easily.
+    d. while viewing one image of the gallery after clicking/tapping on it, users can you the navigation arrows of the gallery to view the rest of the images without needed to minimise and return to main gallery.
+
+### Returning users
+- As a returning user, I want to see tours information for the band so I can look to attend a show
+    a. on the home page the tour alert is visible on all screen sizes at the top of the page, giving quick and easy access to the tour information for the band.
+
+- As a returning user, I want to see any new merchandise that is available to buy as a fan
+    a. scrolling down on the home page, images of available merchandise are clearly viewable to give users a quick view on available items.
+    b. a message below these images clearly informs users that they can click on the images to go to the full store.
+    c. clicking on the images opens the full store for the user, this is done in a new tab to enable the user to keep their place on the site without the need to navigate through the page again.
+
+- As a returning user, I want to enquire about booking the band to play at a show
+    a. users can book the band using the call to action button within the nav bar (on screen sizes of 768px and higher) and the footer (all screens) the button is shown in a contrast colour to make it stand out and easily spotted by users.
+    b. user can complete the mo0dal (form) that is called when the Book Us button is pressed, this has named fields so easily show what information is required and error messages to help the user in case of missing information.
+    c. when the form is completed a green submit button is clearly displayed to show the user that it needs to be submitted.
+    d. once submitted the form disappears to enable the user to continue browsing.
+
+### Frequent visitor
+- As a frequent visitor, I want to check out any new images from the latest show to keep up to date on the band
+    a. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
+    b. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
 
 1. Tour alert
     1. Click link to confirm that tour information page is loaded in separate tab
