@@ -107,92 +107,104 @@ The site is designed for users to learn more about the band, keep up to dates on
 ## Testing - New
 
 ### First time users testing
-- As a first time user, I want to hear the latest music so I can learn more about the bands music
-    a. users arrive at the home page with the latest music available below the hero image.
-    b. users are able to play the embedded youtube video to hear the latest music immediately without navigation or leaving the page.
+1. As a first time user, I want to hear the latest music so I can learn more about the bands music
+    1. users arrive at the home page with the latest music available below the hero image.
+    2. users are able to play the embedded youtube video to hear the latest music immediately without navigation or leaving the page.
 
-- As a first time user, I want to read about the band and members so I can learn more about them
-    a. users can you easily see the option within the navigation bar named 'About Us' giving them a clear indication of where to find out more about the band.
-    b. when arriving on the 'About Us' page the information about the band is the first thing on the page, giving users a quick way to find out about the band.
-    c. by scrolling down on the page users can quickly navigate to the band members information to learn more about erach member, including a picture on screen sizes above or equal to 768px (width).
+2. As a first time user, I want to read about the band and members so I can learn more about them
+    1. users can you easily see the option within the navigation bar named 'About Us' giving them a clear indication of where to find out more about the band.
+    2. when arriving on the 'About Us' page the information about the band is the first thing on the page, giving users a quick way to find out about the band.
+    3. by scrolling down on the page users can quickly navigate to the band members information to learn more about erach member, including a picture on screen sizes above or equal to 768px (width).
 
-- As a first time user, I want to see pictures of the band so I can see what shows are like
-    a. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
-    b. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
-    c. by scrolling down images of the band are avialble to view, each able to be clicked on to bring to forefront and making viewing the images easily.
-    d. while viewing one image of the gallery after clicking/tapping on it, users can you the navigation arrows of the gallery to view the rest of the images without needed to minimise and return to main gallery.
+3. As a first time user, I want to see pictures of the band so I can see what shows are like
+    1. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
+    2. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
+    3. by scrolling down images of the band are avialble to view, each able to be clicked on to bring to forefront and making viewing the images easily.
+    4. while viewing one image of the gallery after clicking/tapping on it, users can you the navigation arrows of the gallery to view the rest of the images without needed to minimise and return to main gallery.
 
 ### Returning users
-- As a returning user, I want to see tours information for the band so I can look to attend a show
-    a. on the home page the tour alert is visible on all screen sizes at the top of the page, giving quick and easy access to the tour information for the band.
+1. As a returning user, I want to see tours information for the band so I can look to attend a show
+    1. on the home page the tour alert is visible on all screen sizes at the top of the page, giving quick and easy access to the tour information for the band.
 
-- As a returning user, I want to see any new merchandise that is available to buy as a fan
-    a. scrolling down on the home page, images of available merchandise are clearly viewable to give users a quick view on available items.
-    b. a message below these images clearly informs users that they can click on the images to go to the full store.
-    c. clicking on the images opens the full store for the user, this is done in a new tab to enable the user to keep their place on the site without the need to navigate through the page again.
+2. As a returning user, I want to see any new merchandise that is available to buy as a fan
+    1. scrolling down on the home page, images of available merchandise are clearly viewable to give users a quick view on available items.
+    2. a message below these images clearly informs users that they can click on the images to go to the full store.
+    3. clicking on the images opens the full store for the user, this is done in a new tab to enable the user to keep their place on the site without the need to navigate through the page again.
 
-- As a returning user, I want to enquire about booking the band to play at a show
-    a. users can book the band using the call to action button within the nav bar (on screen sizes of 768px and higher) and the footer (all screens) the button is shown in a contrast colour to make it stand out and easily spotted by users.
-    b. user can complete the mo0dal (form) that is called when the Book Us button is pressed, this has named fields so easily show what information is required and error messages to help the user in case of missing information.
-    c. when the form is completed a green submit button is clearly displayed to show the user that it needs to be submitted.
-    d. once submitted the form disappears to enable the user to continue browsing.
+3. As a returning user, I want to enquire about booking the band to play at a show
+    1. users can book the band using the call to action button within the nav bar (on screen sizes of 768px and higher) and the footer (all screens) the button is shown in a contrast colour to make it stand out and easily spotted by users.
+    2. user can complete the mo0dal (form) that is called when the Book Us button is pressed, this has named fields so easily show what information is required and error messages to help the user in case of missing information.
+    3. when the form is completed a green submit button is clearly displayed to show the user that it needs to be submitted.
+    4. once submitted the form disappears to enable the user to continue browsing.
 
 ### Frequent visitor
-- As a frequent visitor, I want to check out any new images from the latest show to keep up to date on the band
-    a. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
-    b. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
+1. As a frequent visitor, I want to check out any new images from the latest show to keep up to date on the band
+    1. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
+    2. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
 
-1. Tour alert
-    1. Click link to confirm that tour information page is loaded in separate tab
+### Feature testing 
+| Feature | Page(s) | Action taken  | Expected result | Pass/Fail |
+| :--- | :--- | :--- | :--- | :--- |
+| Tour alert | index.html | Click link in tour alert| new tab opens on to the tour page from bands website | Pass |     
+| Navbar | All | Home clicked within navbar | index.html loaded for user | pass |
+| Navbar | All | Gallery clicked within navbar | gallery.html loaded for user | pass |
+| Navbar | All | About us clicked within navbar | about.html loaded for user | pass |
+| Navbar | All | Book Us button clicked | modal/form to open for user to complete | pass |
+| Lastest music video | index.html | click play button on embedded video| video to play lastest video within page | pass |
+| Lastest music video | index.html | click youtube button within video | video to open on youtube (new tab) | pass |
+| Lastest music video | index.html | click fullscreen button on video | video to play fullscreen (current tab) | pass |
+| Lastest music video | index.html | when video playing fullscreen, click exit fullscreen | screen to return to index.html with video playing embedded | pass |
+| Merchandise links | index.html | click merchandise image 1 (cd) | full store page to open (new tab)| pass |
+| Merchandise links | index.html | click merchandise image 2 (lp) | full store page to open (new tab)| pass |
+| Merchandise links | index.html | click merchandise image 3 (hat) | full store page to open (new tab)| pass |
+| Carousel | gallery.html | use nav arrows in carousel | images to scroll in direction of arrow click | pass |
+| Carousel | gallery.html | wait on page and watch carousel | images to autoscroll without interaction | pass |
+| Gallery | gallery.html | click gallery image 1 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 2 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 3 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 4 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 5 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 6 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 7 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | click gallery image 8 | image to center and caption to be visible | pass |
+| Gallery | gallery.html | when viewing image center click nav arrows within gallery| image to scroll to next image while remaining in gallery view | pass |
+| Gallery | gallery.html | when viewing image in center click elsewhere on page | gallery to close and return to page with noral view | pass |
+| Modal | All | complete form with correct data | form able to be submitted | pass |
+| Modal | All | missing data in email field when submitting | error without submitted, inform user to fill out email field | pass |
+| Modal | All | missing data in date field when submitting | error without submitted, inform user to fill out date field | pass |
+| Modal | All | missing data in location field when submitting | error without submitted, inform user to fill out location field | pass |
+| Modal | All | incorrect data entered in to email field, no @ included | error without submitted, inform user to fill out email field using valid email format | pass |
+| Modal | All | enter letters into date filed | unable to type letters in to date field therefore not completing form | pass |
+| Footer | All | Click free poster icon | free poster to open in new tab for users to view | pass |
+| Footer | All | link social link for Facebook | band facebook page to open in new tab | pass |
+| Footer | All | link social link for twitter | band twitter page to open in new tab | pass |
+| Footer | All | link social link for instagram | band instagram page to open in new tab | pass |
+| Footer | All | link social link for youtube | band youtube page to open in new tab | pass |
 
-2. Navbar
-    1. Click Home link and confirmed index.html was loaded
-    2. Click Gallery link and confirmed gallery.html was loaded
-    3. Click About Us link and confirmed about.html was loaded
-    4. Clicked Book Us button and verified that modal opened (modal testing is below)
+### Bugs found and fixed
+1. About.html was not fully responsive when used on very screen screens and had horizontal scrolling.
+    1. fixed by adding css code to make body have max width of 100% on screen.
 
-3. Music Video
-    1. Clicked video and verified that it plays within web page
-    2. Clicked YouTube link in video and verified that if clicked youtube page would open in new tab
-    3. Clicked full screen button and verified that video would play full screen
-    4. When playing full screen clicked exit full screen button and verified page would return to previous started
+2. Gallry was not opening centered and responsively on smaller screens.
+    1. css code for text align centered added, this is needed to center when using fancy FancyBox.
+    2. css added to make images 100% width on container.
 
-4. Merchandise 
-    1. Clicked image 1 (cd) and verified link to merch store opened
-    2. Clicked image 2 (lp) and verified link to merch store opened
-    3. Clicked image 1 (hat) and verified link to merch store opened
+3. Modal was not fully responsive on very small screens.
+    1. added media query for modal class for small screens under 600px, limiting size to width 100%.
 
-5. Gallery carousel
-    1. Clicked arrows left and right and verified images scroll
-    2. Viewed carousel and waited to verified that images auto scroll
-
-6. Gallery
-    1. Clicked image 1 and verified that image became centered and caption was visiable
-    2. Clicked image 2 and verified that image became centered and caption was visiable
-    3. Clicked image 3 and verified that image became centered and caption was visiable
-    4. Clicked image 4 and verified that image became centered and caption was visiable
-    5. Clicked image 5 and verified that image became centered and caption was visiable
-    6. Clicked image 6 and verified that image became centered and caption was visiable
-    7. Clicked image 7 and verified that image became centered and caption was visiable
-    8. Clicked image 8 and verified that image became centered and caption was visiable
-    9. When image was centered used arrow buttons and verified that highlighted image would scroll to next or previous image
-
-7. Modal
-    1. Completed form using valid data and submitted and verified that no errors happened
-    2. Tried to submit empty form and verified required fields highlighted to user
-    3. Input invalid email and verified that error message was presented
-    4. Clicked close button and verified that user able to close modal if no longer needed
-
-8. Footer
-    1. Clicked icon for free poster and verified poster opened in new tab
-    2. Clicked Book Us button and verified form opened 
-    3. Clicked social links and confirmed all social media platforms opened to correct places and in new tabs
 
 I had family and friends review and use the website using a variety of computers and devices to make sure that the website functioned properly and that the UX worked as intended with positive results.
 
 ## Deployment
 
-Deployment was done using git pages. By going into setting and options, scrolling down to github pages and choosing the master branch of my repository
+The project was deployed on GitHub Pages by using the direction below
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository, locate the "Settings" button
+With the Settings page scroll down to find the "GitHub Pages" Section.
+Under "Source", change the dropdown option from "None" to "Master Branch".
+The page will refresh.
+Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ## Credits
 
