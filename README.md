@@ -7,6 +7,11 @@ This project was designed to give new or current fans access to information abou
 ## UX
 
 The site is designed for users to learn more about the band, keep up to dates on show images, music, merchandise and tour dates, with that in mind the site is set into 3 separate pages, the homepage being where the all users will land gives information or shares media for anyone who is interested in I previal. The gallery page for those looking to keep up on the bands shows and the about us page where new or returning fans can learn more their favourite band members.
+
+## Wireframes
+
+Wireframes for the project were made using Miro.
+They can be found [HERE](https://miro.com/app/board/o9J_knRwq70=/)
  
 ### First time users
 - As a first time user, I want to hear the latest music so I can learn more about the bands music
@@ -122,7 +127,7 @@ The site is designed for users to learn more about the band, keep up to dates on
     3. by scrolling down images of the band are avialble to view, each able to be clicked on to bring to forefront and making viewing the images easily.
     4. while viewing one image of the gallery after clicking/tapping on it, users can you the navigation arrows of the gallery to view the rest of the images without needed to minimise and return to main gallery.
 
-### Returning users
+### Returning users testing
 1. As a returning user, I want to see tours information for the band so I can look to attend a show
     1. on the home page the tour alert is visible on all screen sizes at the top of the page, giving quick and easy access to the tour information for the band.
 
@@ -137,7 +142,7 @@ The site is designed for users to learn more about the band, keep up to dates on
     3. when the form is completed a green submit button is clearly displayed to show the user that it needs to be submitted.
     4. once submitted the form disappears to enable the user to continue browsing.
 
-### Frequent visitor
+### Frequent visitor testing
 1. As a frequent visitor, I want to check out any new images from the latest show to keep up to date on the band
     1. users can you easily see the option within the navigation bar named 'Gallery' giving a clear indication of where the gallery of the band can be found.
     2. when on the Gallery page users are immediately able to see the latest show images, these can be scrolled through using the carousel.
@@ -199,12 +204,12 @@ I had family and friends review and use the website using a variety of computers
 
 The project was deployed on GitHub Pages by using the direction below
 
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository, locate the "Settings" button
-With the Settings page scroll down to find the "GitHub Pages" Section.
-Under "Source", change the dropdown option from "None" to "Master Branch".
-The page will refresh.
-Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository, locate the "Settings" button
+3. With the Settings page scroll down to find the "GitHub Pages" Section.
+4. Under "Source", change the dropdown option from "None" to "Master Branch".
+5. The page will refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ## Credits
 
