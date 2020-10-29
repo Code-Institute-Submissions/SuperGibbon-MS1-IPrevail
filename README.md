@@ -61,55 +61,7 @@ They can be found [HERE](https://miro.com/app/board/o9J_knRwq70=/)
 - [GoogleFonts](https://fonts.google.com/)
     - The project uses **GoogleFonts** to provide the fonts used on the pages
 
-## Testing - Old
-
-1. Tour alert
-    1. Click link to confirm that tour information page is loaded in separate tab
-
-2. Navbar
-    1. Click Home link and confirmed index.html was loaded
-    2. Click Gallery link and confirmed gallery.html was loaded
-    3. Click About Us link and confirmed about.html was loaded
-    4. Clicked Book Us button and verified that modal opened (modal testing is below)
-
-3. Music Video
-    1. Clicked video and verified that it plays within web page
-    2. Clicked YouTube link in video and verified that if clicked youtube page would open in new tab
-    3. Clicked full screen button and verified that video would play full screen
-    4. When playing full screen clicked exit full screen button and verified page would return to previous started
-
-4. Merchandise 
-    1. Clicked image 1 (cd) and verified link to merch store opened
-    2. Clicked image 2 (lp) and verified link to merch store opened
-    3. Clicked image 1 (hat) and verified link to merch store opened
-
-5. Gallery carousel
-    1. Clicked arrows left and right and verified images scroll
-    2. Viewed carousel and waited to verified that images auto scroll
-
-6. Gallery
-    1. Clicked image 1 and verified that image became centered and caption was visiable
-    2. Clicked image 2 and verified that image became centered and caption was visiable
-    3. Clicked image 3 and verified that image became centered and caption was visiable
-    4. Clicked image 4 and verified that image became centered and caption was visiable
-    5. Clicked image 5 and verified that image became centered and caption was visiable
-    6. Clicked image 6 and verified that image became centered and caption was visiable
-    7. Clicked image 7 and verified that image became centered and caption was visiable
-    8. Clicked image 8 and verified that image became centered and caption was visiable
-    9. When image was centered used arrow buttons and verified that highlighted image would scroll to next or previous image
-
-7. Modal
-    1. Completed form using valid data and submitted and verified that no errors happened
-    2. Tried to submit empty form and verified required fields highlighted to user
-    3. Input invalid email and verified that error message was presented
-    4. Clicked close button and verified that user able to close modal if no longer needed
-
-8. Footer
-    1. Clicked icon for free poster and verified poster opened in new tab
-    2. Clicked Book Us button and verified form opened 
-    3. Clicked social links and confirmed all social media platforms opened to correct places and in new tabs
-
-## Testing - New
+## Testing
 
 ### First time users testing
 1. As a first time user, I want to hear the latest music so I can learn more about the bands music
