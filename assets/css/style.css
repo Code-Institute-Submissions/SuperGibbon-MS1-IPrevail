@@ -110,10 +110,13 @@ html, body {
 
 /* latest music */
 
+.centered {
+    text-align: center;
+}
+
 .latest-music  {
     align-items: center;
     justify-content: center;
-    display: flex;
     margin-bottom: 20px;
     margin-top: 0;
 }
@@ -143,8 +146,6 @@ html, body {
 .merch {
     align-items: center;
     justify-content: center;
-    display: flex;
-
     margin-bottom: 30px;
 }
 
@@ -205,6 +206,11 @@ html, body {
     margin-right: 30px;
     margin-bottom: 30px;
 
+}
+
+.rounded-circle {
+    width: 150px;
+    height: auto;
 }
 
 /* Footer */
@@ -309,6 +315,14 @@ footer {
 @media only screen and (max-width: 600px) {
     .modal {
         width: 100%;
+        
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .merch-image {
+        max-width: 80%;
+    }
         
     }
 }

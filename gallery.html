@@ -151,25 +151,25 @@
             <div class="col-12 col-md-4">
                 <ul class="list-inline social-links footer-title">
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/IPrevailBand/">
+                        <a rel="noopener" target="_blank" href="https://www.facebook.com/IPrevailBand/">
                             <i class="fab fa-facebook-square" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/IPrevailBand">
+                        <a rel="noopener" target="_blank" href="https://twitter.com/IPrevailBand">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/iprevailband/?hl=en">
+                        <a rel="noopener" target="_blank" href="https://www.instagram.com/iprevailband/?hl=en">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/channel/UCgN1463ngpGdCpAbCBGFteg">
+                        <a rel="noopener" target="_blank" href="https://www.youtube.com/channel/UCgN1463ngpGdCpAbCBGFteg">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
@@ -191,23 +191,23 @@
         </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                         <div class="form-group">
                             <label for="inputEmail">Email address</label>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+                            <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="date">What date do you want us to play?</label>
-                            <input type="date" class="form-control" id="date" required>
+                            <input type="date" class="form-control" id="date" name="date" required>
                         </div>
                         <div class="form-group">
                             <label for="location">Where do you want us to play?</label>
-                            <textarea rows="1" class="form-control" id="location" placeholder="Location" required></textarea>
+                            <input type="text" class="form-control" id="location" name="location" placeholder="Location" required>
                         </div>
                         <div class="form-group">
-                            <label for="textarea">Info about the show</label>
-                            <textarea rows="4" class="form-control" id="textarea" placeholder="Please give us some info about the show"></textarea>
+                            <label for="showinfo">Info about the show</label>
+                            <textarea rows="4" class="form-control" id="showinfo" name="showinfo" placeholder="Please give us some info about the show"></textarea>
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                         </form>
